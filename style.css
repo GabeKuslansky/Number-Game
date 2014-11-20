@@ -1,0 +1,147 @@
+body {
+    font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #434a54;
+    background-color: white;
+}
+
+p {
+    font-size: 150%;
+}
+input {
+    font-size: 125%;
+}
+.start {
+    color: #fff !important;
+    word-spacing: 0.25em;
+    font-family:'Open Sans', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    line-height: 22px;
+    padding: 12px 13px 11px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+.start:active, .button:active, .button2:active {
+    -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3), inset 0 10px 20px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3), inset 0 10px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3), inset 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+.start:hover, .start:focus {
+    background-color: #61C7EB;
+    border-color: #61C7EB;
+}
+.button[disabled], .button2[disabled] {
+    filter: alpha(opacity=45);
+    opacity: .45;
+}
+.button {
+    color: #fff !important;
+    word-spacing: 0.25em;
+    font-family:'Open Sans', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    background: #3b5998;
+    position: relative;
+    top: -5px;
+    width: 60px;
+    height: 30px;
+}
+.start:hover, .button:hover, .button2:hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    -webkit-box-shadow:inset 0 10px 20px rgba(255, 255, 255, 0.10);
+    -moz-box-shadow: inset 0 10px 20px rgba(255, 255, 255, 0.10);
+    box-shadow: inset 0 10px 20px rgba(255, 255, 255, 0.10);
+}
+.start, .button, .button2 {
+    -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3), inset 0 10px 20px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3), inset 0 10px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3), inset 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+.button2 {
+    outline: none;
+    background-color: #37bc9b;
+    border-color: #37bc9b;
+    font-size: 120%;
+    cursor: pointer;
+    color: white;
+}
+.button2:focus, .button2:hover {
+    background-color: #48cfad;
+    border-color: #48cfad;
+    font-size: 120%;
+    cursor: pointer;
+    color: white;
+}
+body {
+    background: white;
+}
+.1 {
+    position: relative;
+    left: 250px;
+}
+.lives {
+    font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: fixed;
+    left: 615px;
+    background-color: #ECF0F1;
+    border: #000 solid 1.5px;
+    min-width: 120px;
+    min-height: 130px;
+}
+#display-text {
+    font-family: Lato;
+}
+.lives-head {
+    font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+    height: 25px;
+}
+.lives-info {
+    font-family: Lato;
+    position: relative;
+    font-size: 300%;
+    top: 30px;
+}
+.end {
+    color: yellow;
+}
+/* latin-ext */
+ @font-face {
+    font-family:'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+ @font-face {
+    font-family:'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/7aC-Y4V2UPHQp-tqeekgkA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+html, body {height: 80%;}
+#footer {position: relative;
+	margin-top: 500px; /* negative value of footer height */
+	height: 50px;
+    width: 1400px;
+    text-align: center;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    border-color: #bdc3c7;
+    font-size: 60%;
+    
+	clear:both;}
